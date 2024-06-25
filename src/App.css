@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(239, 216, 96);
+  height: 400px;
+  overflow-y: auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input-row input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-row button {
+  padding: 10px 20px;
+  background-color: rgb(255, 183, 0);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-row button:hover {
+  background-color: orange;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: solid gray 1px;
+  border-radius: 4px;
+}
+
+.task-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+
+
+.button-row {
+  display: flex;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  color: red;
+}
+
+.delete-button:hover {
+  color: rgb(149, 3, 3);
+}
+
+.check-button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  color: green;
+}
+
+.check-button:hover{
+  color: rgb(1, 76, 1);
+}
+
